@@ -1,0 +1,1 @@
+une variable est typée en dart donc son type est définitif une fois déclaré ( ex : var blabla = "sldskds"; blabla = 12 ) provoque une erreur
