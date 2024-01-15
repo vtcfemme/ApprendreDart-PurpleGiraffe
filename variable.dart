@@ -1,8 +1,10 @@
+import 'app_console/NE_PAS_TOUCHER/user_input.dart';
+
 void main() {
   print("Bonjour!");
   final nomUtilisateur = readText("Entrez votre pseudo :");
-   // nouvelle affectation de la variable
-  var score = 0;  //déclaration de la variable
+
+  var score = 0;  // déclaration et initialisation de la variable 
   const valeurPartie = 10;  // déclaration et initialisation de la variable 
 
   
