@@ -16,6 +16,7 @@ void main(){
     break;
     case 3:
     print("Bye bye");
+    break;
     default:
     print("Je ne comprends pas votre choix :(");
     

@@ -9,7 +9,7 @@ void main() {
 
   print("Bonjour $message ");
   if (age <= 0 || age >= 120 || age == 99) { // le signe || "pipe veut dire OU en Programmation"
-  print("Age incorrect");                    // il suffit que l'un des trois conditions soit vrai pour rentrer dans la condition if
+  print("Age incorrect");                    // il suffit que l'une des trois conditions soit vrai pour rentrer dans la condition if
   }
   else if (age >= 50 && age <=100) {  // le signe && veut dire ET en Programmation
   print("Vous êtes un(e) vieux");     // il faut que les deux conditions soit vrai pour rentrer dans la confition if
@@ -31,13 +31,14 @@ void main() {
 
   switch (age) {    // switch(variable), on peux mettre autant de case que l'on veux
     case 18:        // dans le cas ou la variable est égale à 18
+    print("vous avez 18 ans");
     break;          // le break pour dire qu'on a terminé le case
     case 8:
     print("vous venez d'avoir 8 ans");
     break;
     default:        // choix par défault, non couvert par les autres cases
-    print("Age par défault");
-    break;
+    print("Age par défaut");
+    // break est inutile car le programme va se terminer
   }
 
 
